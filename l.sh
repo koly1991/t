@@ -12,6 +12,7 @@ if [ ! -z $1 ]; then
 		cd $dir
 		timeout 2 pdflatex $1
 		timeout 2 pdflatex $1
+		rm /tmp/main.pdf
 		cp *.pdf /tmp/main.pdf
 		cd -
 		rm -rf $dir
