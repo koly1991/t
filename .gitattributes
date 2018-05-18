@@ -1,2 +1,0 @@
-*.list filter=git-crypt diff=git-crypt
-*.tex filter=git-crypt diff=git-crypt
